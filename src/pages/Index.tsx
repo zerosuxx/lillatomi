@@ -35,11 +35,10 @@ const Index = () => {
           {/* Romantic Quote */}
           <blockquote className="space-y-4">
             <p className="font-serif text-3xl md:text-5xl lg:text-6xl leading-tight text-foreground italic">
-              "Love is composed of a single soul inhabiting two bodies."
+              - Pont jókor jössz, mert ez a nap legjobb része.
+              - Melyik az a rész?
+              - Az, amikor te meg én mi leszünk 💍
             </p>
-            <footer className="text-lg md:text-xl text-muted-foreground font-light">
-              — Aristotle
-            </footer>
           </blockquote>
 
           {/* QR Codes Section */}
