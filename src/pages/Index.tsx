@@ -34,10 +34,10 @@ const Index = () => {
         <div className="w-full max-w-4xl space-y-16 text-center animate-in fade-in duration-1000">
           {/* Romantic Quote */}
           <blockquote className="space-y-4">
-            <p className="font-serif text-3xl md:text-5xl lg:text-6xl leading-tight text-foreground italic">
-              - Pont jókor jössz, mert ez a nap legjobb része.</br>
-              - Melyik az a rész?</br>
-              - Az, amikor te meg én mi leszünk 💍</br>
+            <p className="font-serif text-3xl md:text-5xl lg:text-6xl leading-tight text-foreground italic whitespace-pre-line">
+              - Pont jókor jössz, mert ez a nap legjobb része.
+              - Melyik az a rész?
+              - Az, amikor te meg én mi leszünk 💍
             </p>
           </blockquote>
 
