@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 30 10% 20%;
 
-    --primary: 43 74% 49%;
+    --primary: 322 81% 43%;
     --primary-foreground: 40 20% 97%;
 
     --secondary: 40 30% 90%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 40 20% 94%;
     --muted-foreground: 30 8% 50%;
 
-    --accent: 43 74% 49%;
+    --accent: 322 81% 43%;
     --accent-foreground: 40 20% 97%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,12 +34,12 @@ All colors MUST be HSL.
 
     --border: 40 20% 88%;
     --input: 40 20% 88%;
-    --ring: 43 74% 49%;
+    --ring: 322 81% 43%;
 
     --radius: 0.75rem;
     
-    --gradient-gold: linear-gradient(135deg, hsl(43, 79%, 38%), hsl(45 80% 60%));
-    --shadow-gold: 0 10px 40px -10px hsl(43 74% 49% / 0.3);
+    --gradient-gold: linear-gradient(135deg, hsl(322, 81%, 33%), hsl(322, 81%, 53%));
+    --shadow-gold: 0 10px 40px -10px hsl(322, 81%, 43%, 0.3);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
@@ -69,7 +69,7 @@ All colors MUST be HSL.
     --popover: 30 15% 15%;
     --popover-foreground: 40 20% 97%;
 
-    --primary: 43 74% 49%;
+    --primary: 322 81% 43%;
     --primary-foreground: 30 15% 12%;
 
     --secondary: 30 15% 20%;
@@ -78,7 +78,7 @@ All colors MUST be HSL.
     --muted: 30 15% 20%;
     --muted-foreground: 40 15% 65%;
 
-    --accent: 43 74% 49%;
+    --accent: 322 81% 43%;
     --accent-foreground: 30 15% 12%;
 
     --destructive: 0 62.8% 30.6%;
@@ -86,15 +86,15 @@ All colors MUST be HSL.
 
     --border: 30 15% 25%;
     --input: 30 15% 25%;
-    --ring: 43 74% 49%;
+    --ring: 322 81% 43%;
     --sidebar-background: 30 15% 12%;
     --sidebar-foreground: 40 20% 97%;
-    --sidebar-primary: 43 74% 49%;
+    --sidebar-primary: 322 81% 43%;
     --sidebar-primary-foreground: 30 15% 12%;
     --sidebar-accent: 30 15% 20%;
     --sidebar-accent-foreground: 40 20% 97%;
     --sidebar-border: 30 15% 25%;
-    --sidebar-ring: 43 74% 49%;
+    --sidebar-ring: 322 81% 43%;
   }
 }
 
