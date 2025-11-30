@@ -24,9 +24,9 @@ const Index = () => {
   };
 
   const qrCodes = [
-    { title: "Visszajelzés", image: qrRsvp },
-    { title: "Lejátszási lista", image: qrPlaylist },
-    { title: "Képek", image: qrPhotos },
+    { title: "Visszajelzés", image: qrRsvp, url: "https://docs.google.com/forms/d/e/1FAIpQLSdx79KBngQNeR_0XzzhamrQmiuUAQjsoes11FIdBSdBA8X4Gw/viewform" },
+    { title: "Lejátszási lista", image: qrPlaylist, url: "https://music.youtube.com/playlist?list=PLDNYAjjrF02eqhLHg4_7KEhMt7NqxXBb0&jct=CFvzKjPnej7Qhvbo8o_Evw" },
+    { title: "Képek", image: qrPhotos, url: "https://drive.google.com/drive/folders/1hEDabieyJe_YDaDlM6lggaFj3fRf0_ku" },
   ];
 
   return (
@@ -95,8 +95,8 @@ const Index = () => {
                 className="w-full"
               ></iframe>
             </div>
-            <p className="mt-4 text-muted-foreground text-lg">
-              Törökbálint, Hosszúrét tanya 275/15, 2045
+            <p className="mt-4 text-primary text-lg">
+              <a href="https://maps.app.goo.gl/BsDsZesC7fJgBcib8" target="_blank">Törökbálint, Hosszúrét tanya 275/15, 2045</a>
             </p>
           </div>
 
@@ -108,16 +108,18 @@ const Index = () => {
                 className="flex flex-col items-center space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-700"
                 style={{ animationDelay: `${(index + 2) * 200}ms` }}
               >
-                <div className="rounded-2xl bg-card p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-border">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="w-48 h-48 object-contain"
-                  />
-                </div>
-                <h3 className="font-serif text-xl md:text-2xl text-primary font-semibold">
-                  {item.title}
-                </h3>
+                <a href={item.url} target="_blank">
+                  <div className="rounded-2xl bg-card p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-border">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-48 h-48 object-contain"
+                    />
+                  </div>
+                  <h3 className="font-serif text-xl md:text-2xl text-primary font-semibold">
+                    {item.title}
+                  </h3>
+                </a>
               </div>
             ))}
           </div>
