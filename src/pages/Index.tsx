@@ -83,8 +83,8 @@ const Index = () => {
           {/* Google Maps Embed */}
           <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-700" style={{ animationDelay: "200ms" }}>
             <div className="rounded-2xl overflow-hidden shadow-lg border border-border bg-card">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.123456789!2d18.9123456!3d47.4123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVMO2csO2a2LDoWxpbnQsIEhvc3N6w7pyw6l0IHRhbnlhIDI3NS8xNSwgMjA0NQ!5e0!3m2!1sen!2shu!4v1234567890"
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16645.134091958018!2d18.843900144619937!3d47.44589633561196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476a0b7c099877b7%3A0x619cf082ef73288e!2zSG9zc3rDunLDqXRpIFJlbmRlenbDqW55aMOheiB8IHRlcm3DqXN6ZXRrw7Z6ZWxpIGVza8O8dsWRaSBoZWx5c3rDrW4sIHJlbmRlenbDqW55aGVseXN6w61uLCBjc2FwYXTDqXDDrXTDqXM!5e0!3m2!1shu!2shu!4v1764531761972!5m2!1shu!2shu"
+                allowfullscreen=""
                 width="100%"
                 height="350"
                 style={{ border: 0 }}
@@ -93,7 +93,7 @@ const Index = () => {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Esküvő helyszíne"
                 className="w-full"
-              />
+              ></iframe>
             </div>
             <p className="mt-4 text-muted-foreground text-lg">
               Törökbálint, Hosszúrét tanya 275/15, 2045
