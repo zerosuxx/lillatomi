@@ -48,13 +48,13 @@ const Index = () => {
           {/* Romantic Quote */}
           <blockquote className="space-y-4">
             <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground italic">
-              - Pont jókor jössz, mert ez a nap legjobb része.
+              Pont jókor jössz, mert ez a nap legjobb része.
             </p>
             <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground italic">
-              - Melyik az a rész?
+              Melyik az a rész?
             </p>
             <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground italic">
-              - Az, amikor te meg én mi leszünk 💍
+              Az, amikor te meg én mi leszünk 💍
             </p>
           </blockquote>
         </div>
