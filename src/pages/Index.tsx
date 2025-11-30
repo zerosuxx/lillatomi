@@ -47,13 +47,13 @@ const Index = () => {
         <div className="w-full max-w-4xl space-y-16 text-center animate-in fade-in duration-1000">
           {/* Romantic Quote */}
           <blockquote className="space-y-4">
-            <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground italic">
+            <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-primary italic">
               Pont jókor jössz, mert ez a nap legjobb része.
             </p>
-            <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground italic">
+            <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-primary italic">
               Melyik az a rész?
             </p>
-            <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground italic">
+            <p className="font-serif text-shadow-lg/30 text-2xl md:text-3xl lg:text-4xl leading-tight text-primary italic">
               Az, amikor te meg én mi leszünk 💍
             </p>
           </blockquote>
@@ -77,7 +77,7 @@ const Index = () => {
       >
         <div className="w-full max-w-4xl space-y-12 text-center">
           {/* Section Title */}
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-foreground animate-in fade-in duration-700">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-primary animate-in fade-in duration-700">
             Információk
           </h2>
 
