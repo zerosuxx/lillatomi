@@ -62,7 +62,8 @@ const Index = () => {
         {/* Scroll Indicator */}
         <button
           onClick={scrollToSection}
-          className="absolute bottom-16 left-1/2 -translate-x-1/2 text-foreground/70 hover:text-foreground transition-colors duration-300 animate-bounce margin-left: -14px"
+          className="absolute bottom-16 left-1/2 -translate-x-1/2 text-foreground/70 hover:text-foreground transition-colors duration-300 animate-bounce"
+          style={{ marginLeft: "-14px" }}
           aria-label="Scroll to information section"
         >
           <ChevronDown size={48} strokeWidth={1.5} />
