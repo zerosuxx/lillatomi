@@ -62,7 +62,7 @@ const Index = () => {
         {/* Scroll Indicator */}
         <button
           onClick={scrollToSection}
-          className="absolute bottom-16 left-1/2 -translate-x-1/2 text-primary/70 hover:text-foreground transition-colors duration-300 animate-bounce"
+          className="absolute bottom-32 left-1/2 -translate-x-1/2 text-primary/70 hover:text-foreground transition-colors duration-300 animate-bounce"
           style={{ marginLeft: "-24px" }}
           aria-label="Scroll to information section"
         >
